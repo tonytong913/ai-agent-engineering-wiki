@@ -20,6 +20,11 @@
 
 | 问题 | 关联专题 | 优先级 |
 |------|----------|--------|
+| temperature、top_p、top_k 对 Agent 稳定性有什么影响？ | [llm-foundation.md](llm-foundation.md) | 高 |
+| 上下文窗口、KV Cache 和输出 token 预算是什么关系？ | [llm-foundation.md](llm-foundation.md) | 高 |
+| 长上下文模型是否可以替代 RAG？ | [llm-foundation.md](llm-foundation.md) | 高 |
+| Structured Output 为什么不能只依赖提示词？ | [llm-foundation.md](llm-foundation.md) | 高 |
+| System prompt、user message、tool result 的安全边界有什么区别？ | [llm-foundation.md](llm-foundation.md) | 高 |
 | 一个生产级 Agent Loop 包含哪些阶段？ | [agent-loop.md](agent-loop.md) | 高 |
 | Harness 和 Agent runtime 的边界是什么？ | [harness-engineering.md](harness-engineering.md) | 高 |
 | MCP 解决了什么工程问题？ | [tool-calling.md](tool-calling.md) | 高 |
