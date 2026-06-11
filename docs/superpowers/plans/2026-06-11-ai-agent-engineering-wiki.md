@@ -1,10 +1,10 @@
-# AI Agent 面试 Wiki Implementation Plan
+# AI Agent 技术交流 Wiki Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 初始化一个面向 LLM 与 AI Agent 工程面试准备的中文 wiki。
+**Goal:** 初始化一个面向 LLM 与 AI Agent 工程职业准备的中文 wiki。
 
-**Architecture:** 使用 `raw/` 保存原始路线、题库和项目素材，使用 `wiki/` 保存面试输出型知识页。`wiki/index.md` 作为状态源，`wiki/log.md` 作为追加式准备日志。
+**Architecture:** 使用 `raw/` 保存原始路线、题库和项目素材，使用 `wiki/` 保存能力输出型知识页。`wiki/index.md` 作为状态源，`wiki/log.md` 作为追加式准备日志。
 
 **Tech Stack:** Markdown、Git、shell link sanity check。
 
@@ -30,13 +30,13 @@ Expected: 输出包含 `Initialized empty Git repository` 或 `Reinitialized exi
 ### Task 2: 创建原始材料目录
 
 **Files:**
-- Create: `raw/interview-roadmap.md`
+- Create: `raw/engineering-roadmap.md`
 - Create: `raw/question-bank.md`
 - Create: `raw/project-inventory.md`
 
-- [ ] **Step 1: 创建 `raw/interview-roadmap.md`**
+- [ ] **Step 1: 创建 `raw/engineering-roadmap.md`**
 
-写入 AI Agent 工程面试路线，覆盖 LLM 基础、Agent Loop、Harness、Tool Calling、Memory、Planning、RAG、Eval、Multi-Agent、安全权限、系统设计和项目表达。
+写入 AI Agent 工程能力路线，覆盖 LLM 基础、Agent Loop、Harness、Tool Calling、Memory、Planning、RAG、Eval、Multi-Agent、安全权限、系统设计和项目表达。
 
 - [ ] **Step 2: 创建 `raw/question-bank.md`**
 
@@ -44,7 +44,7 @@ Expected: 输出包含 `Initialized empty Git repository` 或 `Reinitialized exi
 
 - [ ] **Step 3: 创建 `raw/project-inventory.md`**
 
-写入项目经历素材模板，服务于面试中的项目深挖。
+写入项目经历素材模板，服务于技术交流中的项目深挖。
 
 ### Task 3: 创建 Wiki 目录和主题页
 
@@ -75,7 +75,7 @@ Expected: 输出包含 `Initialized empty Git repository` 或 `Reinitialized exi
 
 - [ ] **Step 3: 创建主题页**
 
-每个主题页使用统一结构：面试定位、核心概念、工程实现、常见问题、追问点、项目表达、资料索引、开放问题。
+每个主题页使用统一结构：交流定位、核心概念、工程实现、常见问题、追问点、项目表达、资料索引、开放问题。
 
 ### Task 4: 验证和提交
 
@@ -107,7 +107,7 @@ Run:
 
 ```bash
 git add raw wiki docs/superpowers
-git commit -m "docs: initialize AI Agent interview wiki"
+git commit -m "docs: initialize AI Agent engineering wiki"
 ```
 
 Expected: 提交成功。

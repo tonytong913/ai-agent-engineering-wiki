@@ -1,8 +1,8 @@
 # Memory 与 Context Engineering
 
-## 面试定位
+## 交流定位
 
-Memory 和 Context Engineering 决定 Agent 是否能在长任务中保持连续性，同时不被历史噪声拖垮。面试重点是上下文预算、摘要、检索、长期记忆和污染控制。
+Memory 和 Context Engineering 决定 Agent 是否能在长任务中保持连续性，同时不被历史噪声拖垮。技术交流重点是上下文预算、摘要、检索、长期记忆和污染控制。
 
 ## 核心概念
 
@@ -20,7 +20,7 @@ Memory 和 Context Engineering 决定 Agent 是否能在长任务中保持连续
 - 检索结果要带来源，方便解释和调试。
 - 摘要不能替代所有原文，关键证据和工具输出需要保留可追溯路径。
 
-## 常见面试题
+## 常见技术交流问题
 
 - Agent 应该记住什么，不应该记住什么？
 - 上下文超长时如何处理？
@@ -40,7 +40,7 @@ Memory 和 Context Engineering 决定 Agent 是否能在长任务中保持连续
 ## 资料索引
 
 - [RAG 与检索](rag-retrieval.md)
-- [面试路线](../raw/interview-roadmap.md)
+- [能力路线](../raw/engineering-roadmap.md)
 
 ## 开放问题
 

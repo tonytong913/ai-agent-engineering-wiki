@@ -1,4 +1,4 @@
-# AI Agent 工程面试问题池
+# AI Agent 工程技术问题池
 
 > 原始问题池。问题可以继续追加，整理后的答案应沉淀到 `wiki/` 对应专题页，并在 `wiki/question-index.md` 建立反链。
 

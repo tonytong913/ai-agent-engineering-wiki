@@ -1,6 +1,6 @@
-site_name: LLM 与 AI Agent 工程面试 Wiki
-site_description: 面向 LLM、AI Agent、Agent Loop、Harness、RAG、Eval 与可观测性的面试准备 wiki
-site_author: interview
+site_name: LLM 与 AI Agent 工程能力 Wiki
+site_description: 面向 LLM、AI Agent、Agent Loop、Harness、RAG、Eval 与可观测性的职业准备 wiki
+site_author: engineering
 docs_dir: site-docs
 site_dir: site
 use_directory_urls: true
@@ -66,12 +66,12 @@ nav:
       - Eval 与 Observability: wiki/eval-observability.md
       - Multi-Agent: wiki/multi-agent.md
       - Safety / Permissions: wiki/safety-permissions.md
-  - 面试输出:
+  - 能力输出:
       - 系统设计: wiki/system-design.md
       - 项目故事: wiki/project-stories.md
       - 问题索引: wiki/question-index.md
       - 准备日志: wiki/log.md
   - 原始材料:
-      - 面试路线: raw/interview-roadmap.md
+      - 能力路线: raw/engineering-roadmap.md
       - 问题池: raw/question-bank.md
       - 项目素材清单: raw/project-inventory.md

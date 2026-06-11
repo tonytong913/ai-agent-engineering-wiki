@@ -1,6 +1,6 @@
-# LLM 与 AI Agent 工程面试路线
+# LLM 与 AI Agent 工程能力路线
 
-> 目标：服务 LLM / AI Agent / Harness / Agent Loop 工程岗位面试准备。路线按工程能力组织，每个主题都要能转化为可讲述的设计、取舍、事故和项目经验。
+> 目标：服务 LLM / AI Agent / Harness / Agent Loop 工程岗位职业准备。路线按工程能力组织，每个主题都要能转化为可讲述的设计、取舍、事故和项目经验。
 
 ## 1. LLM 基础
 

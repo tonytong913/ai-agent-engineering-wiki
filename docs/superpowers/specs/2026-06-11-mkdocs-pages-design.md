@@ -2,7 +2,7 @@
 
 ## Goal
 
-Publish the existing Chinese AI Agent interview wiki as a browser-friendly documentation site using MkDocs Material and GitHub Pages.
+Publish the existing Chinese AI Agent engineering wiki as a browser-friendly documentation site using MkDocs Material and GitHub Pages.
 
 ## Deployment Choice
 
@@ -38,7 +38,7 @@ The site navigation should expose:
 
 1. Wiki 首页
 2. 核心专题
-3. 面试输出
+3. 能力输出
 4. 原始材料
 
 The first page should be `wiki/index.md`.

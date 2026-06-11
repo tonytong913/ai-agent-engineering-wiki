@@ -1,8 +1,8 @@
 # Planning / Reasoning / Search
 
-## 面试定位
+## 交流定位
 
-Planning 主题用于说明你是否理解“什么时候需要计划，什么时候简单 loop 更稳定”。面试官通常会追问 ReAct、Plan-and-Execute、Reflection、搜索和失败恢复的实际收益。
+Planning 主题用于说明你是否理解“什么时候需要计划，什么时候简单 loop 更稳定”。技术交流方通常会追问 ReAct、Plan-and-Execute、Reflection、搜索和失败恢复的实际收益。
 
 ## 核心概念
 
@@ -20,7 +20,7 @@ Planning 主题用于说明你是否理解“什么时候需要计划，什么�
 - Reflection 应有触发条件，例如测试失败、评分低、工具异常。
 - 搜索策略要受预算约束，避免指数级 token 消耗。
 
-## 常见面试题
+## 常见技术交流问题
 
 - ReAct 和 Plan-and-Execute 有什么区别？
 - Reflection 在什么情况下有用？

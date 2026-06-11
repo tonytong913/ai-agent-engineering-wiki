@@ -1,8 +1,8 @@
 # Agent Loop 工程
 
-## 面试定位
+## 交流定位
 
-Agent Loop 是 AI Agent 工程面试的核心。面试官通常想确认你是否能把“模型会调用工具”落成稳定的 runtime：状态、工具、错误、预算、终止和可观测性都要被系统化处理。
+Agent Loop 是 AI Agent 工程能力的核心。技术交流方通常想确认你是否能把“模型会调用工具”落成稳定的 runtime：状态、工具、错误、预算、终止和可观测性都要被系统化处理。
 
 ## 核心概念
 
@@ -20,7 +20,7 @@ Agent Loop 是 AI Agent 工程面试的核心。面试官通常想确认你是�
 - 设置最大轮数和预算硬限制，避免无限循环。
 - 对 side effect 工具使用幂等 key 或人工确认。
 
-## 常见面试题
+## 常见技术交流问题
 
 - 一个生产级 Agent Loop 包含哪些阶段？
 - Agent 如何判断任务已经完成？
@@ -39,7 +39,7 @@ Agent Loop 是 AI Agent 工程面试的核心。面试官通常想确认你是�
 
 ## 资料索引
 
-- [面试路线](../raw/interview-roadmap.md)
+- [能力路线](../raw/engineering-roadmap.md)
 - [问题索引](question-index.md)
 
 ## 开放问题

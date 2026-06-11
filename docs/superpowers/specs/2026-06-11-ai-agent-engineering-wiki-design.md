@@ -1,15 +1,15 @@
-# AI Agent Interview Wiki Design
+# AI Agent Engineering Wiki Design
 
 ## Goal
 
-Build a local interview-preparation wiki for LLM and AI Agent engineering roles, with emphasis on Agent Loop engineering, Harness engineering, tool use, evaluation, observability, memory/context systems, and production agent architecture.
+Build a local career-preparation wiki for LLM and AI Agent engineering roles, with emphasis on Agent Loop engineering, Harness engineering, tool use, evaluation, observability, memory/context systems, and production agent architecture.
 
 The wiki should follow the same operating model as the existing `agents-learning` wiki:
 
 - `raw/` stores original source material, roadmaps, question pools, and project inventory.
 - `wiki/index.md` is the main navigation and status source.
 - `wiki/log.md` is append-only and records preparation sessions.
-- Topic pages under `wiki/` turn raw material into interview-ready explanations.
+- Topic pages under `wiki/` turn raw material into discussion-ready explanations.
 
 ## Audience And Use
 
@@ -21,7 +21,7 @@ The primary user is preparing for roles such as:
 - Agent loop / tool orchestration engineer
 - RAG, evaluation, and observability engineer
 
-The wiki is not a generic computer-science notebook. Each page should help answer interview questions, handle follow-up questions, and connect concepts to concrete engineering stories.
+The wiki is not a generic computer-science notebook. Each page should help answer technical questions, handle follow-up questions, and connect concepts to concrete engineering stories.
 
 ## Structure
 
@@ -29,7 +29,7 @@ Initial file layout:
 
 ```text
 raw/
-  interview-roadmap.md
+  engineering-roadmap.md
   question-bank.md
   project-inventory.md
 
@@ -55,16 +55,16 @@ wiki/
 
 Each topic page should use this structure:
 
-1. Interview Positioning
+1. Discussion Positioning
 2. Core Concepts
 3. Engineering Implementation
-4. Common Interview Questions
+4. Common Technical Questions
 5. Follow-up Questions
 6. Project Story Hooks
 7. Source / Paper / Reference Index
 8. Open Questions
 
-This keeps notes tied to interview output instead of becoming passive study material.
+This keeps notes tied to career output instead of becoming passive study material.
 
 ## Index Responsibilities
 
@@ -93,11 +93,11 @@ Existing entries should not be rewritten except for obvious formatting fixes.
 
 ## Raw Material Responsibilities
 
-`raw/interview-roadmap.md` is the source learning route.
+`raw/engineering-roadmap.md` is the source learning route.
 
 `raw/question-bank.md` stores unprocessed questions, categorized by topic. Questions can later be promoted into topic pages and `wiki/question-index.md`.
 
-`raw/project-inventory.md` stores project material and experience fragments that can be shaped into interview stories.
+`raw/project-inventory.md` stores project material and experience fragments that can be shaped into project stories.
 
 ## Initial Scope
 

@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Configure the interview wiki as a MkDocs Material site deployable to GitHub Pages.
+**Goal:** Configure the engineering wiki as a MkDocs Material site deployable to GitHub Pages.
 
 **Architecture:** Keep `wiki/` and `raw/` in place as source files. Copy them into an ignored `site-docs/` staging directory before each build, set MkDocs `docs_dir` to `site-docs`, build static HTML into `site/`, and publish with GitHub Pages artifact deployment.
 
