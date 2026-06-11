@@ -53,7 +53,8 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - 首页: wiki/index.md
+  - 首页: index.md
+  - Wiki 总览: wiki/index.md
   - 核心专题:
       - LLM 基础: wiki/llm-foundation.md
       - Agent Loop 工程: wiki/agent-loop.md
