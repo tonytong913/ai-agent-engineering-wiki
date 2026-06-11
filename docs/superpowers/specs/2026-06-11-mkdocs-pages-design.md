@@ -22,7 +22,7 @@ Keep the existing content layout:
 - `raw/` remains visible as source material.
 - `docs/superpowers/` remains internal process documentation and is excluded from the public site.
 
-MkDocs will use `docs_dir: .` so links between `wiki/` and `raw/` continue to work without moving files.
+MkDocs requires `docs_dir` to be a child directory of the config file location, so the build uses a generated `site-docs/` staging directory. A small preparation script copies `wiki/` and `raw/` into `site-docs/` before each build. This preserves the root `wiki/` and `raw/` source layout while giving MkDocs a valid documentation root.
 
 ## Files To Add
 
@@ -30,6 +30,7 @@ MkDocs will use `docs_dir: .` so links between `wiki/` and `raw/` continue to wo
 - `requirements.txt`: Python dependencies for local and CI builds.
 - `.github/workflows/pages.yml`: GitHub Pages build and deploy workflow.
 - `.gitignore`: ignore generated `site/` output and local Python build artifacts.
+- `scripts/prepare-mkdocs-docs.sh`: rebuild the ignored `site-docs/` staging directory from `wiki/` and `raw/`.
 
 ## Navigation
 

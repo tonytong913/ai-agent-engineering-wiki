@@ -1,0 +1,76 @@
+site_name: LLM 与 AI Agent 工程面试 Wiki
+site_description: 面向 LLM、AI Agent、Agent Loop、Harness、RAG、Eval 与可观测性的面试准备 wiki
+site_author: interview
+docs_dir: site-docs
+site_dir: site
+use_directory_urls: true
+strict: true
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+nav:
+  - 首页: wiki/index.md
+  - 核心专题:
+      - LLM 基础: wiki/llm-foundation.md
+      - Agent Loop 工程: wiki/agent-loop.md
+      - Harness 工程: wiki/harness-engineering.md
+      - Tool Calling / MCP: wiki/tool-calling.md
+      - Memory 与 Context: wiki/memory-context.md
+      - Planning / Reasoning: wiki/planning-reasoning.md
+      - RAG 与检索增强: wiki/rag-retrieval.md
+      - Eval 与 Observability: wiki/eval-observability.md
+      - Multi-Agent: wiki/multi-agent.md
+      - Safety / Permissions: wiki/safety-permissions.md
+  - 面试输出:
+      - 系统设计: wiki/system-design.md
+      - 项目故事: wiki/project-stories.md
+      - 问题索引: wiki/question-index.md
+      - 准备日志: wiki/log.md
+  - 原始材料:
+      - 面试路线: raw/interview-roadmap.md
+      - 问题池: raw/question-bank.md
+      - 项目素材清单: raw/project-inventory.md
